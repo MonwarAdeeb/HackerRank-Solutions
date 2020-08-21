@@ -1,5 +1,3 @@
-#URL : https://www.hackerrank.com/challenges/list-comprehensions/submissions/code/169316995
-
 if __name__ == '__main__':
     x = int(raw_input())
     y = int(raw_input())
