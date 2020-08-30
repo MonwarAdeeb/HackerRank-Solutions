@@ -7,11 +7,11 @@ class Calculator(AdvancedArithmetic):
     div_sum = 0
     
     def divisorSum(self, n):
-        for number in range(1, (n+1)):
+        for number in range(1, int((n/2)+1)):
             if (n % number == 0):
                 self.div_sum += number
         
-        return self.div_sum
+        return self.div_sum+n
 
 
 n = int(input())
