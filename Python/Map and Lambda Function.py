@@ -9,7 +9,7 @@ def fibonacci(n):
     for i in range(2, n):
         fibo.append(fibo[i-2] + fibo[i-1])
 
-    return(fibo)
+    return(fibo[0:n])
 
 
 if __name__ == '__main__':
